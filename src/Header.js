@@ -10,8 +10,11 @@ import PersonOutlinecon from "@material-ui/icons/PersonOutline";
 function Header() {
   return (
     <div className="header">
+      {/* Header is divided into two section. And those are put in flex space-between to move to edges */}
+
+      {/* 1. All icons will go here */}
+
       <div className="header__icons">
-        {/* All icons will go here */}
         <div className="header__icon header__icon--active">
           <HomeIcon />
           <p>Home</p>
@@ -43,7 +46,7 @@ function Header() {
         </div>
       </div>
 
-      {/* The logo goes here */}
+      {/* 2. The logo goes here */}
       <img
         src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
         alt="hulu clone logo"
