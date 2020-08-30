@@ -18,4 +18,5 @@
 
 .videoCard > h2 {
   padding-top: 10px;
+  justify-content: center;
 }
