@@ -12,6 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+Before running the app you need to register for an API in TMDB. You have to create .env file in root directory and paste your API key.
+
+The variable name which needs to be populated is provided in the sample file .env_sample.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />

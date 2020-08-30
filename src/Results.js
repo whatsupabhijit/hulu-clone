@@ -11,6 +11,7 @@ function Results() {
     async function fetchData() {
       const req = await axios.get(requests.fetchTrending);
       console.log(req);
+      setMovies(req.data.results);
       return req;
     }
     fetchData();
@@ -19,7 +20,7 @@ function Results() {
   return (
     <div className="results">
       {movies.map((movie) => (
-        <VideoCard movie={movie} />
+        <VideoCard key={movie.id} movie={movie} />
       ))}
     </div>
   );
