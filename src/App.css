@@ -1,3 +1,9 @@
 .app {
   width: 100vw;
+
+  /*   This is taken from www.grabient.com and then editing. Below is taken from actual hulu site.
+  background-color: #131414;
+  background-image: linear-gradient(90deg, #131414 61%, #395634 100%); */
+
+  background-image: linear-gradient(to right, #051421, #042727);
 }
