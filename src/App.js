@@ -13,6 +13,7 @@ function App() {
     <div className="app">
       <Header />
 
+      {/* just like you can pass value as a props, you can also pass modifier (in this case setSelectedOption) as a props */}
       <Nav setSelectedOption={setSelectedOption} />
 
       <Results selectedOption={selectedOption} />
