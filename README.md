@@ -16,6 +16,18 @@ Before running the app you need to register for an API in TMDB. You have to crea
 
 The variable name which needs to be populated is provided in the sample file .env_sample.
 
+For production build in firebase set the api keys in firebase functions -
+
+`firebase functions:config:set service.react_app_tmdb_api_key="your api key here"`
+
+Then create a env.json file
+`firebase functions:config:get > env.json`
+
+Note: make sure to
+
+`npm install firebase-functions@latest firebase-admin@latest --save`
+`npm install -g firebase-tools`
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
