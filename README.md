@@ -82,3 +82,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k G:\\cmder\\vendor\\init.bat"
+    ],
+    "git.ignoreMissingGitWarning": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "window.zoomLevel": 1
+}

@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== "production") {
   // }
   // console.log("inside production config:", config);
   // TMDB_API_KEY = config.service.react_app_tmdb_api_key;
-  TMDB_API_KEY = "49abae553b0199ae81859b282d10fafd";
+  TMDB_API_KEY = "49abae553b0XXXXXXXXXXX282d10fafd";
 }
 
 // {"genres":[
